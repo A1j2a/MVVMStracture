@@ -1,0 +1,47 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets": [
+        "src/assets"
+      ],
+      "@navigation": [
+        "src/navigation"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@components": [
+        "src/shared/components"
+      ],
+      "@constant": [
+        "src/shared/constant"
+      ],
+      "@theme": [
+        "src/shared/theme/"
+      ],
+      "@colors": [
+        "src/shared/theme/colors"
+      ],
+      "@fontSize": [
+        "src/shared/theme/fontSize"
+      ],
+      "@font": [
+        "src/shared/theme/font"
+      ],
+      "@globalStyles": [
+        "src/shared/theme/globalStyles"
+      ],
+      "@layout": [
+        "src/shared/theme/layout"
+      ],
+      "@utils": [
+        "src/utils/"
+      ],
+      "@responsiveDimension": [
+        "src/utils/responsiveDimension"
+      ],
+    }
+  }
+}
